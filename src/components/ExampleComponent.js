@@ -1,4 +1,5 @@
 import React from "react";
+import TestComponent from "./TestComponent";
 
 // no need to modify anything in here. The second test is looking for the returned JSX from this component
 function ExampleComponent() {
@@ -9,6 +10,7 @@ function ExampleComponent() {
         alt="a deeply impressed man, perhaps thinking 'whoa'"
       />
       <p>Whoa!</p>
+      <TestComponent/>
     </div>
   );
 }
